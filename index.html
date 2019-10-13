@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" class="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TODOS</title>
+</head>
+<body>
+    <form id="todo" class="todo">
+   <div class="container">
+      <p style="font-family: Arial, Helvetica, sans-serif ; font-size: 40px ;">Todos</p>
+      <div class = "todo-content">
+          <section class="light">
+             <span> <input type="text" name="search" id="search" placeholder="Search Todos" class="searchrounded"></span>
+          </section>
+          <div class = "todos" >
+              <ul class = "list">
+                  <li class="sublist" ><span class="delete" style="padding-right:70px">A New Todo</span><i class="fa fa-trash-o" ></i></li>
+                  <li class="sublist"><span class="delete" style="padding-right:70px">A New Todo</span><i class="fa fa-trash-o "></i></li>
+          
+             </ul>
+          </div>
+      </div>
+   </div><br>
+     <div class = "add">
+         <p style="padding:10px;">
+             <label>Add a New Todo:</label><br>
+             <input type = "text" id="itemadd" placeholder="Add New Todo"><br><br>
+             <button class="btn">Add</button>
+            </p>
+
+     </div>
+    </form>
+<script src="app.js"></script>
+</body>
+</html>
